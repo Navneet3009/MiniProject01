@@ -34,7 +34,7 @@ public class Main {
 
 			switch (choice) {
 			case 1:
-				sc.nextLine(); // consume leftover newline
+				sc.nextLine();
 				System.out.print("Enter Name: ");
 				String name = sc.nextLine();
 				System.out.print("Enter Roll Number: ");
